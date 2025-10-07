@@ -4,7 +4,7 @@
 
 
 void codificar(char *texto) {
-    for (int i = 0; texto[i] != '\0'; i++) {
+    for (int i = 0; texto[i]; i++) {
         switch (texto[i]) {
             case 'A':
                 texto[i] = ';';
